@@ -2,20 +2,20 @@
 
 # Previousnext 0.8.15
 
-Show links to previous/next page.
+Links zur vorherigen/nächsten Seite anzeigen.
 
-<p align="center"><img src="previousnext-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="previousnext-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
-## How to show links
+## Wie man Links anzeigt
 
-This extension adds links to previous/next page, which allows users to navigate between pages. Links are shown on blog pages. To show links on other pages use a `[previousnext]` shortcut.
+Diese Erweiterung fügt Links zur vorherigen/nächsten Seite ein, mit denen Benutzer zwischen den Seiten navigieren können. Links werden auf Blogseiten angezeigt. Um Links auf anderen Seiten anzuzeigen, benutze eine `[previousnext]`-Abkürzung.
 
-## Examples
+## Beispiele
 
-Content file with links:
+Inhaltsdatei mit Links:
 
     ---
-    Title: Example page
+    Title: Beispielseite
     ---
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -25,7 +25,7 @@ Content file with links:
 
     [previousnext]
 
-Layout file with links:
+Layoutdatei mit Links:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
@@ -37,17 +37,17 @@ Layout file with links:
     </div>
     <?php $this->yellow->layout("footer") ?>
 
-## Settings
+## Einstellungen
 
-The following settings can be configured in file `system/extensions/yellow-system.ini`:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`PreviousnextPagePrevious` = show link to previous page, 1 or 0  
-`PreviousnextPageNext` = show link to next page, 1 or 0  
+`PreviousnextPagePrevious` = Link zur vorherigen Seite zeigen, 1 oder 0  
+`PreviousnextPageNext` = Link zur nächsten Seite zeigen, 1 oder 0  
 
 ## Installation
 
-[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/previousnext.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/previousnext.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-## Developer
+## Entwickler
 
-Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
+Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
