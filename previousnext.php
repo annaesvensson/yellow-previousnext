@@ -1,5 +1,5 @@
 <?php
-// Previousnext extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/previousnext
+// Previousnext extension, https://github.com/annaesvensson/yellow-previousnext
 
 class YellowPreviousnext {
     const VERSION = "0.8.15";
