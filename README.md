@@ -50,4 +50,4 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 ## Developer
 
-Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
+Anna Svensson. [Get help](https://datenstrom.se/yellow/help/).
