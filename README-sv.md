@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Previousnext 0.8.15
+# Previousnext 0.8.16
 
 Visa länkar till föregående/nästa sida.
 
