@@ -2,7 +2,7 @@
 // Previousnext extension, https://github.com/annaesvensson/yellow-previousnext
 
 class YellowPreviousnext {
-    const VERSION = "0.8.15";
+    const VERSION = "0.8.16";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -22,7 +22,7 @@ class YellowPreviousnext {
             if ($this->yellow->system->get("previousnextPagePrevious")) $pagePrevious = $pages->getPagePrevious($page);
             if ($this->yellow->system->get("previousnextPageNext")) $pageNext = $pages->getPageNext($page);
             if ($pagePrevious!=null || $pageNext!=null) {
-                $output = "<div class=\"previousnext\">\n";
+                $output = "<div class=\"previousnext\" role=\"navigation\" aria-label=\"".$this->yellow->language->getTextHtml("previousnextNavigation")."\">\n";
                 $output .= "<p>";
                 if ($pagePrevious!=null) {
                     $text = preg_replace("/@title/i", $pagePrevious->get("title"), $this->yellow->language->getText("previousnextPagePrevious"));
