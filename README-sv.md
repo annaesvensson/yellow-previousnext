@@ -6,6 +6,10 @@ Visa länkar till föregående/nästa sida.
 
 <p align="center"><img src="previousnext-screenshot.png?raw=true" alt="Skärmdump"></p>
 
+## Hur man installerar ett tillägg
+
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-previousnext/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man visar länkar
 
 Det här tillägget lägger till länkar till föregående/nästa sida, vilket gör det möjligt för användare att navigera mellan sidor. Länkar visas på bloggsidor. För att visa länkar på andra sidor använd en `[previousnext]` förkortning.
@@ -43,10 +47,6 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 `PreviousnextPagePrevious` = visa länk till föregående sida, 1 eller 0  
 `PreviousnextPageNext` = visa länk till nästa sida, 1 eller 0  
-
-## Installation
-
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-previousnext/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 
