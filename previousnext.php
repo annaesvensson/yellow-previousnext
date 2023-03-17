@@ -2,7 +2,7 @@
 // Previousnext extension, https://github.com/annaesvensson/yellow-previousnext
 
 class YellowPreviousnext {
-    const VERSION = "0.8.16";
+    const VERSION = "0.8.17";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -52,13 +52,10 @@ class YellowPreviousnext {
     // Return related pages
     public function getRelatedPages($page) {
         switch ($page->get("layout")) {
-            case "blog":        $blogStartLocation = $this->yellow->system->get("blogStartLocation");
-                                if ($blogStartLocation!="auto") {
-                                    $blogStart = $this->yellow->content->find($blogStartLocation);
-                                    $pages = $this->yellow->content->index();
+            case "blog":        if ($this->yellow->system->get("blogStartLocation")=="auto") {
+                                    $pages = $page->getSiblings();
                                 } else {
-                                    $blogStart = $page->getParent();
-                                    $pages = $blogStart->getChildren();
+                                    $pages = $this->yellow->content->index();
                                 }
                                 $pages->filter("layout", "blog")->sort("published", true);
                                 break;
