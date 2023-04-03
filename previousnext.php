@@ -2,7 +2,7 @@
 // Previousnext extension, https://github.com/annaesvensson/yellow-previousnext
 
 class YellowPreviousnext {
-    const VERSION = "0.8.17";
+    const VERSION = "0.8.18";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -43,7 +43,7 @@ class YellowPreviousnext {
     // Handle page extra data
     public function onParsePageExtra($page, $name) {
         $output = null;
-        if ($name=="previousnext" || $name=="links") {
+        if ($name=="previousnext" || $name=="link") {
             $output = $this->onParseContentShortcut($page, "previousnext", "", "block");
         }
         return $output;
