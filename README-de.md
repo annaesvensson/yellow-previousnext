@@ -35,8 +35,8 @@ Layoutdatei mit Links:
     <div class="content">
     <div class="main" role="main">
     <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-    <?php echo $this->yellow->page->getContent() ?>
-    <?php echo $this->yellow->page->getExtra("previousnext") ?>
+    <?php echo $this->yellow->page->getContentHtml() ?>
+    <?php echo $this->yellow->page->getExtraHtml("previousnext") ?>
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
