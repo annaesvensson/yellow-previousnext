@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Previousnext 0.9.1
 
-Visa länkar till föregående/nästa sida.
+Visa länkar till föregående/nästa sida. Utvecklad av Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Skärmdump"></p>
 
@@ -48,6 +46,4 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `PreviousnextPagePrevious` = visa länk till föregående sida, 1 eller 0  
 `PreviousnextPageNext` = visa länk till nästa sida, 1 eller 0  
 
-## Utvecklare
-
-Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/).

@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Previousnext 0.9.1
 
-Show links to previous/next page.
+Show links to previous/next page. Developed by Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
@@ -48,6 +46,4 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `PreviousnextPagePrevious` = show link to previous page, 1 or 0  
 `PreviousnextPageNext` = show link to next page, 1 or 0  
 
-## Developer
-
-Anna Svensson. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
